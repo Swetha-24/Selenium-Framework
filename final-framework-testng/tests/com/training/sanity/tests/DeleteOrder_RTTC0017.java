@@ -84,14 +84,14 @@ driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		String expected = "Orders";
 		Assert.assertEquals(actual, expected);
 		System.out.println("Titles matched");
-		
-		orderpagePOM.sendorderID("293");
+		//mt changes
+		orderpagePOM.sendorderID("2998");
 		orderpagePOM.clickFilterBtn();
-		assertEquals("293",driver.findElement(By.xpath("//td[contains(text(),'293')]")).getText(),"Unable to find order");
+		assertEquals("297",driver.findElement(By.xpath("//td[contains(text(),'297')]")).getText(),"Unable to find order");
 		
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		
-		driver.findElement(By.xpath("//input[@type='checkbox' and @value='293']")).click();
+		driver.findElement(By.xpath("//input[@type='checkbox' and @value='297']")).click();
 		driver.findElement(By.xpath("//i[@class='fa fa-trash-o']")).click();
 		
 		
