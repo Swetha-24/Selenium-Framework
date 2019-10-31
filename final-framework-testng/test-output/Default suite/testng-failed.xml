@@ -3,14 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.training.sanity.tests.Filterorder_RTTC0016">
+      <class name="com.training.sanity.tests.FilterOrder_RTTC0047_Medium">
         <methods>
-          <include name="filtertest"/>
           <include name="afterMethod"/>
           <include name="beforeMethod"/>
+          <include name="filtertest"/>
           <include name="beforeClass"/>
         </methods>
-      </class> <!-- com.training.sanity.tests.Filterorder_RTTC0016 -->
+      </class> <!-- com.training.sanity.tests.FilterOrder_RTTC0047_Medium -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

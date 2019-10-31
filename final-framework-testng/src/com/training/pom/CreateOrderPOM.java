@@ -79,7 +79,8 @@ public class CreateOrderPOM {
 	}
 	
 	public void selectinputproduct() {		
-		this.inputproduct.click();	
+		this.inputproduct.click();
+		
 	}
 	
 	public void sendquantity(String productquantity) {
