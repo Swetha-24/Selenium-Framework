@@ -78,12 +78,13 @@ public class CreateOrderPOM {
 		this.continueBtn.click();
 	}
 	
-	public void selectinputproduct() {		
-		this.inputproduct.click();
+	public void selectinputproduct(String inputproduct) {		
+		this.inputproduct.sendKeys(inputproduct);
 		
 	}
 	
 	public void sendquantity(String productquantity) {
+		this.productquantity.clear();
 		this.productquantity.sendKeys(productquantity);
 	}
 	

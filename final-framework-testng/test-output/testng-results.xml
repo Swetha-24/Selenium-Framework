@@ -1,33 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="26779" started-at="2019-10-31T06:51:36Z" finished-at="2019-10-31T06:52:03Z">
+  <suite name="Default suite" duration-ms="17178" started-at="2019-11-05T13:30:50 IST" finished-at="2019-11-05T13:31:07 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="26779" started-at="2019-10-31T06:51:36Z" finished-at="2019-10-31T06:52:03Z">
-      <class name="com.training.sanity.tests.FilterOrder_RTTC0047_Medium">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.training.sanity.tests.FilterOrder_RTTC0047_Medium@4678c730]" name="beforeClass" is-config="true" duration-ms="13" started-at="2019-10-31T12:21:36Z" finished-at="2019-10-31T12:21:36Z">
+    <test name="Default test" duration-ms="17178" started-at="2019-11-05T13:30:50 IST" finished-at="2019-11-05T13:31:07 IST">
+      <class name="com.training.regression.tests.LoginDBTestAdmin">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.regression.tests.LoginDBTestAdmin@22a67b4]" name="setUpBeforeClass" is-config="true" duration-ms="13" started-at="2019-11-05T13:30:50 IST" finished-at="2019-11-05T13:30:50 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.training.sanity.tests.FilterOrder_RTTC0047_Medium@4678c730]" name="beforeMethod" is-config="true" duration-ms="11797" started-at="2019-10-31T12:21:36Z" finished-at="2019-10-31T12:21:48Z">
+        </test-method> <!-- setUpBeforeClass -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.regression.tests.LoginDBTestAdmin@22a67b4]" name="setUp" is-config="true" duration-ms="12259" started-at="2019-11-05T13:30:51 IST" finished-at="2019-11-05T13:31:03 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="alogintest()[pri:0, instance:com.training.sanity.tests.FilterOrder_RTTC0047_Medium@4678c730]" name="alogintest" duration-ms="1610" started-at="2019-10-31T12:21:48Z" finished-at="2019-10-31T12:21:49Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginDBTest(java.lang.String, java.lang.String)[pri:0, instance:com.training.regression.tests.LoginDBTestAdmin@22a67b4]" name="loginDBTest" duration-ms="2423" started-at="2019-11-05T13:31:03 IST" data-provider="db-inputs" finished-at="2019-11-05T13:31:05 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin@123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- alogintest -->
-        <test-method status="PASS" signature="filtertest()[pri:0, instance:com.training.sanity.tests.FilterOrder_RTTC0047_Medium@4678c730]" name="filtertest" duration-ms="11535" started-at="2019-10-31T12:21:49Z" finished-at="2019-10-31T12:22:01Z">
+        </test-method> <!-- loginDBTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.regression.tests.LoginDBTestAdmin@22a67b4]" name="tearDown" is-config="true" duration-ms="1966" started-at="2019-11-05T13:31:05 IST" finished-at="2019-11-05T13:31:07 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- filtertest -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.training.sanity.tests.FilterOrder_RTTC0047_Medium@4678c730]" name="afterMethod" is-config="true" duration-ms="1808" started-at="2019-10-31T12:22:01Z" finished-at="2019-10-31T12:22:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- com.training.sanity.tests.FilterOrder_RTTC0047_Medium -->
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.training.regression.tests.LoginDBTestAdmin -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -122,7 +122,7 @@ public class ModifyOrder_RTTC0046 {
 		
 		
 		
-		createOrderPOM.selectinputproduct();
+		createOrderPOM.selectinputproduct("Samsung");
 		driver.findElement(By.xpath("//div[@class='tab-content']//li[4]//a[1]")).click();
 		
 		Thread.sleep(3000);

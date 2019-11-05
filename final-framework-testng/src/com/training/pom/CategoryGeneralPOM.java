@@ -18,7 +18,7 @@ public class CategoryGeneralPOM {
 	private WebElement categoryName;
 	
 	@FindBy(id="input-meta-title1")
-	private WebElement megatagTitle;
+	private WebElement megatagTitlec;
 	
 	@FindBy(id="input-meta-description1")
 	private WebElement megatagTitledesc;
@@ -31,8 +31,8 @@ public class CategoryGeneralPOM {
 		this.categoryName.sendKeys(categoryName);
 	}
 	
-	public void sendmegatagTitle(String megatagTitle) {		
-		this.megatagTitle.sendKeys(megatagTitle);
+	public void sendmegatagTitle(String megatagTitlec) {		
+		this.megatagTitlec.sendKeys(megatagTitlec);
 	}
 	
 	public void sendmegatagTitledesc(String megatagTitledesc) {		
