@@ -49,7 +49,7 @@ public class LogintestDB {
 		Thread.sleep(1000);
 		driver.quit();
 	}
-
+//
 
 	@Test(dataProvider = "db-inputs", dataProviderClass = LoginDataProviders.class)
 	public void loginDBTest(String userName, String password) {

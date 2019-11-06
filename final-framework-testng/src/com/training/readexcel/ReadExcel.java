@@ -44,7 +44,7 @@ public class ReadExcel {
 	// Test method, change the path of the .xls file 
 	public static void main(String[] args) {
 		String[][] result = new ReadExcel().getExcelData("C:/DataDriventesting/RetailTestExcel.xlsx", "Sheet1"); 
-		
+		//
 		for(String [] temp : result){
 			for(String temp1: temp){
 				System.out.println(temp1);
