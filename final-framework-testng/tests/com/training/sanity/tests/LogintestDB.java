@@ -25,7 +25,7 @@ public class LogintestDB {
 	private ScreenShot screenShot;
 	private GenericMethods genericMethods; 
 	
-	
+	//
 	@BeforeClass
 	public static void setUpBeforeClass() throws IOException {
 		properties = new Properties();

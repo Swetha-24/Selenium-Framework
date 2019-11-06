@@ -45,7 +45,7 @@ public class RTTC_077 {
 	private OrderTotalsPagePOM orderTotalsPagePOM;
 	private OrderPaymentPOM orderPaymentPOM;
 	private OrderShippingDetailsPOM orderShippingDetailsPOM;
-	
+	  
 	
 	@DataProvider(name="inputs")
 	public Object[][] getData() {

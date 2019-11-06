@@ -22,7 +22,7 @@ public class LoginTests {
 	private LoginPOM loginPOM;
 	private static Properties properties;
 	private ScreenShot screenShot;
-
+//
 	@BeforeClass
 	public static void setUpBeforeClass() throws IOException {
 		properties = new Properties();
