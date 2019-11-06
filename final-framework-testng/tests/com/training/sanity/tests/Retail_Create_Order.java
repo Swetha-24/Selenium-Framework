@@ -96,7 +96,7 @@ public class Retail_Create_Order {
 		
 		createOrderPOM.continueclk();
 		
-		createOrderPOM.selectinputproduct();
+		createOrderPOM.selectinputproduct("Samsung");
 		driver.findElement(By.xpath("//body//div[@class='tab-content']//div[@class='tab-content']//li[1]")).click();
 		createOrderPOM.sendquantity("2");
 		createOrderPOM.clickaddproduct();

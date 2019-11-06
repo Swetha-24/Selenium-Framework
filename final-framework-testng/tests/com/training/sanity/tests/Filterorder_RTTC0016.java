@@ -78,10 +78,10 @@ public class Filterorder_RTTC0016 {
 		act.moveToElement(ordericon).build().perform();
 		driver.findElement(By.xpath("//li[@id='menu-sale']//ul//li//a[contains(text(),'Orders')]")).click();
 		
-		orderpagePOM.sendorderID("294");
+		orderpagePOM.sendorderID("296");
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		orderpagePOM.clickFilterBtn();
-		assertEquals("294",driver.findElement(By.xpath("//td[contains(text(),'294')]")).getText(),"Unable to find order");
+		assertEquals("296",driver.findElement(By.xpath("//td[contains(text(),'296')]")).getText(),"Unable to find order");
 		
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		

@@ -20,6 +20,7 @@ import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 
 import com.training.generics.ScreenShot;
+import com.training.pom.CreateOrderPOM;
 import com.training.pom.LoginPOM;
 import com.training.pom.OrdersPagePOM;
 
@@ -35,6 +36,7 @@ public class ReturnOrder_RTTC018 {
 	private static Properties properties;
 	private ScreenShot screenShot;
 	private ReturnsPagesearchPOM returnsPagesearchPOM;
+	
 	
 	
 	@BeforeSuite

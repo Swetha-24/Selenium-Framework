@@ -40,6 +40,7 @@ public class LoginTests {
 		driver.get(baseUrl);
 	}
 	
+	//
 	@AfterMethod
 	public void tearDown() throws Exception {
 		Thread.sleep(1000);
