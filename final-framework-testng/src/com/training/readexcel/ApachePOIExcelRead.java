@@ -58,6 +58,7 @@ public class ApachePOIExcelRead {
 				while (cellIterator.hasNext()) {
 					Cell cell = cellIterator.next();
 					// Check the cell type and format accordingly
+					
 					switch (cell.getCellType()) {
 
 					case Cell.CELL_TYPE_NUMERIC:

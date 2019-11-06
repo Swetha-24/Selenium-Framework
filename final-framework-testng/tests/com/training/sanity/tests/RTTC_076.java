@@ -1,6 +1,6 @@
 package com.training.sanity.tests;
 
-// SINCE WE CANNOT ACCESS SITE'S DATABASE, DID NOT WRITE CODE FOR DB
+// SINCE WE CANNOT ACCESS SITE'S DATABASE, DID NOT WRITE CODE FOR DB//
 
 import static org.testng.Assert.assertEquals;
 

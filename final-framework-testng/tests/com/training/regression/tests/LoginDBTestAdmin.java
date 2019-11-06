@@ -57,7 +57,7 @@ public class LoginDBTestAdmin {
 
 	@Test(dataProvider = "db-inputs", dataProviderClass = LoginDataProviders.class)
 	public void loginDBTest(String userName, String password) {
-		// for demonstration 
+		// for demonstration //
 //		genericMethods.getElement("login", "id"); 
 				
 		loginPOM.sendUserName(userName);

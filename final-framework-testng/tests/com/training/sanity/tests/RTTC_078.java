@@ -46,7 +46,7 @@ public class RTTC_078 {
 	private ProductsGeneralPOM productsGeneralPOM;
 	private ProductsLinksPOM productsLinksPOM;	
 	
-	//
+	
 	@BeforeSuite
 	  public void beforeClass() throws IOException {
 		  properties = new Properties();

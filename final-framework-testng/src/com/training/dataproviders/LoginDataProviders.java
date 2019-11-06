@@ -13,7 +13,7 @@ public class LoginDataProviders {
 
 	@DataProvider(name = "db-inputs")
 	public Object [][] getDBData() {
-//
+
 		List<LoginBean> list = new ELearningDAO().getLogins(); 
 		
 		Object[][] result = new Object[list.size()][]; 
