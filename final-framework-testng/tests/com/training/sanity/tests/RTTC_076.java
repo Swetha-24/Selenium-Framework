@@ -31,7 +31,7 @@ import com.training.utility.DriverFactory;
 import com.training.utility.DriverNames;
 
 public class RTTC_076 {
-	//RTTC_076
+
 	private WebDriver driver;
 	private String baseUrl;
 	private LoginPOM loginPOM;
